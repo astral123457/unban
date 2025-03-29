@@ -1,0 +1,10 @@
+name: unban
+version: '${project.version}'
+main: org.example.bk.untitled.Unban
+api-version: '1.20'
+authors: [Amauri Buenodos Santos]
+description: Desbanir Players
+commands:
+  unban:
+    description: Desbane um jogador pelo nome.
+    usage: /unban <nome_do_jogador>
